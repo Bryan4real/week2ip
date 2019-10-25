@@ -6,7 +6,7 @@ function akan() {
   let yy = parseInt(year.slice(2, 4));
   let sex = document.getElementById("gender").value;
 
-  let fml =( ( (cc/4) - 2 * (cc - 1)) + ((5*yy/4) ) + ((26*(month+1)/day)) + day )% 7;
+  let fml =( ( (cc/4) - 2 * (cc - 1)) + ((5*yy/4) ) + ((26*(month+1)/10)) + day )% 7;
   let bdate = fml.toFixed(0);
   let bd = bdate - 1;
   let date = parseInt(bd);

@@ -9,15 +9,15 @@
   <body>
     <form onsubmit="result=false">
       <h3><em>Enter your date of birth</em></h3>
-      <input type="number" id="day" placeholder="day" max="31" min="1">
-      <input type="number" id="month" placeholder="month">
-      <input type="number" id="year" placeholder="year">
+      <input type="text" id="day" placeholder="day" max="31" min="1">
+      <input type="text" id="month" placeholder="month">
+      <input type="text" id="year" placeholder="year">
       <select type"" id="gender" >
           <option value="male" placeholder="gender">Male</option>
           <option value="female" placeholder="gender">Female</option>
       </select>
-      <button type="button" onclick="akan()"/>submit</button>
-      <button type="reset" onclick="res()">Reset</button>
+      <button type="button" onclick="akan()">submit</button>
+      <button type="reset" >Reset</button>
       <output id="result" >Your Akan Name is</output>
     </form>
     <script src="js/script.js">

@@ -9,18 +9,15 @@ function akan() {
   let fml =( ( (cc/4) - 2 * (cc - 1)) + ((5*yy/4) ) + ((26*(month+1)/10)) + day )% 7;
   let bdate = fml.toFixed(0);
   let bd = bdate - 1;
-  let date = parseInt(bd);
+  let date = Math.abs(bd);
   console.log(bdate);
     // return document.getElementById("res").innerHTML= bdate;
     let mname = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     let fname = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
   if (sex == "male"){
     return  document.getElementById("result").innerHTML = mname[date];
-
   }
-
     if (sex == "female"){
       return  document.getElementById("result").innerHTML = fname[date];
-
     }
 }

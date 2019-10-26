@@ -20,7 +20,7 @@ form h1{
   text-transform: uppercase;
   font-weight: 500;
 }
-form input[type="number"], form select, form output{
+form input[type="text"], form select, form output{
   border: 0;
   background: none;
   display: block;
@@ -44,7 +44,7 @@ form select option{
   background-color: black;
   border-radius: 24px;
 }
-form input[type="number"]:focus, form select:focus{
+form input[type="text"]:focus, form select:focus{
 width: 280px;
 border-color: #2ecc71;
 }

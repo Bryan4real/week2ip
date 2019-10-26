@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title></title>
+    <title>AKAN NAMES</title>
   </head>
   <body>
     <form onsubmit="result=false">
       <h3><em>Enter your date of birth</em></h3>
-      <input type="text" id="day" placeholder="day" max="31" min="1">
-      <input type="text" id="month" placeholder="month">
-      <input type="text" id="year" placeholder="year">
+      <input type="number" id="day" placeholder="day" max="31" min="1" required>
+      <input type="number" id="month" placeholder="month" max"12" min="1" required>
+      <input type="number" id="year" placeholder="year" max="2050" min="1920" required>
       <select type"" id="gender" >
           <option value="male" placeholder="gender">Male</option>
           <option value="female" placeholder="gender">Female</option>
       </select>
+      <!-- animated -->
+      <a href="#" >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </a>
       <button type="button" onclick="akan()">submit</button>
       <button type="reset" >Reset</button>
       <output id="result" >Your Akan Name is</output>

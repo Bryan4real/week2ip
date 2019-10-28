@@ -2,13 +2,7 @@ html{
   height: 100%;
    background-color: #323238 ;
 }
-/* body{
 
-  font-family: sans-serif;
-  background: #323238;
-  background-color: #545463;
-  background-size: 50%;
-} */
 form{
   width: 300px;
   padding: 40px;
@@ -52,6 +46,10 @@ form select option{
 form input[type="number"]:focus, form select:focus{
 width: 280px;
 border-color: #2ecc71;
+}
+form button[type = "reset"]:focus,form button[type = "button"]:focus{
+  width: 150px;
+  border-color: #2ecc71;
 }
 form button[type = "button"]{
   border: 0;

@@ -23,14 +23,9 @@ function akan() {
   if (month == 2 && day < 1 || day > 29) {
     return  document.getElementById("result").innerHTML = "Enter Valid Date";
   }
-
   let gdate = new Date(`${year}-${month}-${day}`);
   let b = gdate.getDay();
-
   console.log(b);
-
-
-
   if (sex == "male"){
     return  document.getElementById("result").innerHTML = mname[b];
   }

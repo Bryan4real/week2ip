@@ -3,7 +3,7 @@
 # Description
 A platform designed to generate an Akan depending on the date of birth submitted. Akan name is a name Derived from Ghanian Culture, basically for children in Ghana. But assumption based to any culture. For correlation with your name with regard to your date of birth.
 #screenshot
-!(images/screenshot.png)
+![screenshot](images/screenshot.png"screenshot")
 # compatibility
   compatible with all browsers.
   further updates on the way.  

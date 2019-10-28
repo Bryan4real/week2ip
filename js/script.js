@@ -2,8 +2,8 @@ function akan() {
   let day = document.getElementById("day").value;
   let month = document.getElementById("month").value;
   let year = document.getElementById("year").value;
-  let cc = parseInt(year.slice(0, 2));
-  let yy = parseInt(year.slice(2, 4));
+  // let cc = parseInt(year.slice(0, 2));
+  // let yy = parseInt(year.slice(2, 4));
   let sex = document.getElementById("gender").value;
   let mname = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   let fname = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
@@ -26,7 +26,7 @@ function akan() {
 
   let gdate = new Date(`${year}-${month}-${day}`);
   let b = gdate.getDay();
-  
+
   console.log(b);
 
 

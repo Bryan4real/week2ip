@@ -6,7 +6,7 @@ html{
   position: relative;
   width: 20%;
   margin-left: 30px;
-  transform: translate(-20%);
+  margin-top: 5%;
 }
 p{
   color: #fff;

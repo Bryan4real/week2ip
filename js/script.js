@@ -3,6 +3,7 @@ function akan() {
   let month = document.getElementById("month").value;
   let year = document.getElementById("year").value;
   let sex = document.getElementById("gender").value;
+  let wday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
   let mname = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   let fname = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
   if (day < 1 || day > 31) {
@@ -21,11 +22,11 @@ function akan() {
   let b = gdate.getDay();
   console.log(b);
   if (sex == "male"){
-    return  document.getElementById("result").innerHTML = mname[b];
+    return  document.getElementById("result").innerHTML = wday[b]+" : "+ mname[b];
   }
   if (sex == "female")
   {
-      return  document.getElementById("result").innerHTML = fname[b];
+      return  document.getElementById("result").innerHTML = wday[b]+" : "+ fname[b];
     }
 }
 // let cc = parseInt(year.slice(0, 2));

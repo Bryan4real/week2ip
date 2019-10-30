@@ -29,9 +29,3 @@ function akan() {
       return  document.getElementById("result").innerHTML = wday[b]+" : "+ fname[b];
     }
 }
-// let cc = parseInt(year.slice(0, 2));
-// let yy = parseInt(year.slice(2, 4));
-// let fml =( ( (cc/4) - 2 * (cc - 1)) + ((5*yy/4) ) + ((26*(month+1)/10)) + day )% 7;
-// let bdate = fml.toFixed(0);
-// let bd = bdate - 1;
-// let date = Math.abs(bd);
